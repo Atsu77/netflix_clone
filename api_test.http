@@ -1,0 +1,14 @@
+### GET ユーザー一覧を取得
+GET https://api.themoviedb.org/3/movie/550?api_key=e66faedb954757b146f3cd87bb5f42fa HTTP/1.1
+
+### heroku POST ユーザーを登録
+POST https://todo-rails-nuxt-api.herokuapp.com/api/v1/users HTTP/1.1
+Content-Type: application/json
+
+{
+  "user": {
+    "name": "sample_user",
+    "email":"zyoshimoto@tanabe.net",
+    "uid": "1"
+  }
+}
